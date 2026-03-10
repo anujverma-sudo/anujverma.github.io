@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -42,8 +41,15 @@ border-radius:10px;
 background:#6366f1;
 }
 
-</style>
+.certificate img{
+transition:0.3s;
+}
 
+.certificate img:hover{
+transform:scale(1.05);
+}
+
+</style>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
@@ -51,31 +57,27 @@ background:#6366f1;
 <!-- NAVBAR -->
 
 <nav class="bg-white shadow fixed w-full z-10">
-
 <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between">
 
 <h1 class="font-bold text-indigo-600 text-xl">Anuj Verma</h1>
 
 <div class="space-x-6 text-sm font-medium">
-
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
+<a href="#certificates">Certificates</a>
 <a href="#education">Education</a>
 <a href="#contact">Contact</a>
-
 </div>
 
 </div>
-
 </nav>
 
 <!-- HERO -->
 
 <section class="gradient-bg pt-32 pb-20 text-white text-center">
 
-<img src="my photo.jpg"
-class="w-36 h-36 rounded-full mx-auto border-4 border-white shadow-lg">
+<img src="my photo.jpg" class="w-36 h-36 rounded-full mx-auto border-4 border-white shadow-lg">
 
 <h1 class="text-4xl font-bold mt-6">
 Anuj Verma
@@ -86,22 +88,16 @@ Electronics & Communication Engineering Student
 </p>
 
 <p class="mt-3 max-w-xl mx-auto text-sm opacity-90">
-
-Electronics and Communication Engineering student seeking a dynamic role in a core,
-tech-driven company where I can integrate programing ,electronics and problem solving skills
-to design and develop innovative software and hardware systems.
-
+Electronics and Communication Engineering student seeking a dynamic role in a core, tech-driven company where I can integrate programming, electronics and problem solving skills to design and develop innovative software and hardware systems.
 </p>
 
 <div class="mt-6 space-x-4">
 
-<a href="resume.pdf"
-class="bg-white text-indigo-600 px-6 py-2 rounded-lg font-semibold shadow hover:scale-105 transition">
+<a href="resume.pdf" class="bg-white text-indigo-600 px-6 py-2 rounded-lg font-semibold shadow hover:scale-105 transition">
 My Resume
 </a>
 
-<a href="https://www.linkedin.com/in/anuj-verma-7ab781330"
-class="border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-indigo-600 transition">
+<a href="https://www.linkedin.com/in/anuj-verma-7ab781330" class="border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-indigo-600 transition">
 LinkedIn
 </a>
 
@@ -118,11 +114,7 @@ About Me
 </h2>
 
 <p class="text-gray-600 leading-relaxed">
-
-I am an Electronics & Communication Engineering student with strong interest in
-Embedded Systems, IoT, Artificial Intelligence and Cyber Security.
-I enjoy building real-world projects that combine hardware and software.
-
+I am an Electronics & Communication Engineering student with strong interest in Embedded Systems, IoT, Artificial Intelligence and Cyber Security. I enjoy building real-world projects that combine hardware and software.
 </p>
 
 </section>
@@ -175,9 +167,7 @@ Technical Skills
 </div>
 
 </div>
-
 </div>
-
 </section>
 
 <!-- PROJECTS -->
@@ -193,48 +183,75 @@ Projects
 <div class="grid md:grid-cols-3 gap-8">
 
 <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
-
 <h3 class="font-semibold text-lg mb-2">
 Automatic Hand Wash Machine
 </h3>
-
 <p class="text-sm text-gray-600">
-Touchless sensor based hand washing system to improve hygiene and reduce
-water wastage.
+Touchless sensor based hand washing system to improve hygiene and reduce water wastage.
 </p>
-
 </div>
 
 <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
-
 <h3 class="font-semibold text-lg mb-2">
 Bidirectional People Counter
 </h3>
-
 <p class="text-sm text-gray-600">
-IR sensor system that counts people entering and exiting rooms for
-occupancy monitoring.
+IR sensor system that counts people entering and exiting rooms for occupancy monitoring.
 </p>
-
 </div>
 
 <div class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition">
-
 <h3 class="font-semibold text-lg mb-2">
 Smart Coal Mine Safety System
 </h3>
-
 <p class="text-sm text-gray-600">
-IoT based monitoring system detecting dangerous gases and improving
-worker safety.
+IoT based monitoring system detecting dangerous gases and improving worker safety.
 </p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CERTIFICATES -->
+
+<section id="certificates" class="bg-gray-50 py-16">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-indigo-600 mb-10 text-center">
+Certificates
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8 certificate">
+
+<a href="cert1.pdf" target="_blank">
+<img src="cert1.pdf" class="rounded-lg shadow">
+</a>
+
+<a href="cert2.pdf" target="_blank">
+<img src="cert2.pdf" class="rounded-lg shadow">
+</a>
+
+<a href="cert3.pdf" target="_blank">
+<img src="cert3.pdf" class="rounded-lg shadow">
+</a>
+
+<a href="cert4.pdf" target="_blank">
+<img src="cert4.pdf" class="rounded-lg shadow">
+</a>
+
+<a href="cert5.pdf" target="_blank">
+<img src="cert5.pdf" class="rounded-lg shadow">
+</a>
+
+<a href="cert6.pdf" target="_blank">
+<img src="cert6.pdf" class="rounded-lg shadow">
+</a>
 
 </div>
 
 </div>
-
-</div>
-
 </section>
 
 <!-- EDUCATION -->
@@ -271,7 +288,6 @@ C.B Singh Gaur Memorial Senior Secondary College
 </div>
 
 </div>
-
 </section>
 
 <!-- CONTACT -->
@@ -288,20 +304,11 @@ Contact Me
 Open to internships and tech opportunities.
 </p>
 
-<p class="font-medium">
-📧 av446820@gmail.com
-</p>
-
-<p class="font-medium">
-📞 +91 7317466859
-</p>
-
-<p class="font-medium">
-📍 Lakhimpur Kheri, India
-</p>
+<p class="font-medium">📧 av446820@gmail.com</p>
+<p class="font-medium">📞 +91 7317466859</p>
+<p class="font-medium">📍 Lakhimpur Kheri, India</p>
 
 </div>
-
 </section>
 
 <!-- FOOTER -->
@@ -313,12 +320,4 @@ Open to internships and tech opportunities.
 </footer>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
